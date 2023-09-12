@@ -1,0 +1,41 @@
+.basket-list{
+    width: 50%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+}
+
+
+    .basket-header{
+        font-family: 'Ubuntu';
+        font-size: 26px;
+        font-weight: bold;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .basket-header h3{
+        font-family: 'Ubuntu';
+        font-size: 26px;
+    }
+
+    .basket-header button{
+        font-size: 14px;
+        background-color: white;
+        color: #333; 
+        border: 1px solid #ccc; 
+        cursor: pointer; 
+      
+    }
+
+
+.basket-button{
+    width: 30px;
+    height: 30px;
+}

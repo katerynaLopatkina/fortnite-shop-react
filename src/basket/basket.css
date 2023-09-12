@@ -1,0 +1,15 @@
+.about-button{
+    width: 74px; 
+    height: 42px;
+    background-image: url("/public/imgs/buscket.png"); 
+    cursor: pointer; 
+    border: none;
+    position: fixed;
+    z-index: 1;
+    right: 100px;
+    top: 500px;
+    color: white;
+    font-family: 'Luckiest Guy';
+  }
+
+  

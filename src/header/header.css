@@ -1,0 +1,43 @@
+.header{
+    background-color: #78C5DE;
+}
+
+.head{
+    padding-top: 100px;
+    color: white;
+    text-align: right;
+}
+
+.head h1{
+    font-size: 64px;
+    margin-bottom: 5px;
+}
+
+.head h2{
+    font-size: 36px;
+    margin-top: 0px;
+
+}
+
+.about{
+    padding-bottom: 100px;
+    color: white;
+    font-family: 'Ubuntu';
+    font-weight: regular;
+    font-size: 24px;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.about a:not(:last-child) {
+    margin-right: 58px;
+}
+
+.about a:last-child {
+    margin-right: 28px;
+}
+
+

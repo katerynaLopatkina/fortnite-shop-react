@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+@media (max-width: 767px) {
+  .fixed-container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .card {
+    margin: 40px 10px!important;
+  }
+  .about a:last-child {
+    margin-right: 0px!important;
+}
+.about a:not(:last-child) {
+  margin-right: 14px!important}
+
+  .container-products {
+     margin-right: 0px!important;
+}
+.products {
+
+  justify-content: center!important;
+}
+}

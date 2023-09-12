@@ -1,0 +1,53 @@
+.basket-item {
+    display: flex;
+  
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .basket-item-name p {
+    margin: 0;
+    font-size: 16px;
+
+  }
+  
+  .basket-item-name{
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .quantity {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    justify-content: center;
+  }
+  
+  .quantity-button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    color: #333;
+    font-size: 16px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .quantity-count {
+    margin: 0 10px;
+    font-size: 16px;
+  }
+  
+  .basket-item-price p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .basket-item-price{
+    display: flex;
+    width: 30%;
+    justify-content: flex-end;
+  }
